@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Main</title>
+</head>
+<body>
+    <div class="d-flex align-items-center justify-content-center">
+        <form action="/regDetails" method="POST">
+            <div class="form-group">
+            <label>Title</label>
+            <input type="text" name="title">
+            </div>
+            <div class="form-group">
+            <label>start</label>
+            <input type="text" name="start">
+            </div>
+            <div class="form-group">
+                <label>end</label>
+                <input type="text" name="end">
+                </div>
+                <div class="form-group">
+                    <label>Domain</label>
+                    <input type="text" name="domain">
+                    </div>
+                    <div class="form-group">
+                        <label>ExpectedAmount</label>
+                        <input type="number" name="expectedAmount">
+                        </div>
+                        <div class="form-group">
+                            <label>collected</label>
+                            <input type="number" name="collectedAmount">
+                            </div>
+                            <div class="form-group">
+                                <label>wallet</label>
+                                <input type="text" name="walletID">
+                                </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        
+        </form>
+        
+        </div>
+</body>
+</html>
